@@ -92,12 +92,6 @@ class ToBeastTableViewController: UITableViewController, ToBeastCustomCellDelega
             }
         }
     }
-
-//    func fetch() {
-//        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Beast")
-//        let sort = NSSortDescriptor(key: "beasted", ascending: true, selector: true)
-//        request.sortDescriptors = [sort]
-//    }
     
     // for cancel button delegate:
     func cancelButtonPressedFrom(controller: UITableViewController) {
