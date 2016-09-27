@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83C3B671D95BF2000F8DF01 /* BeastedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C3B661D95BF2000F8DF01 /* BeastedTableViewController.swift */; };
 		A8DB8F8B1D958D4B00C7F1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8F8A1D958D4B00C7F1B3 /* AppDelegate.swift */; };
-		A8DB8F8D1D958D4B00C7F1B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8F8C1D958D4B00C7F1B3 /* ViewController.swift */; };
 		A8DB8F901D958D4B00C7F1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DB8F8E1D958D4B00C7F1B3 /* Main.storyboard */; };
 		A8DB8F931D958D4B00C7F1B3 /* BeastList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8F911D958D4B00C7F1B3 /* BeastList.xcdatamodeld */; };
 		A8DB8F951D958D4B00C7F1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DB8F941D958D4B00C7F1B3 /* Assets.xcassets */; };
 		A8DB8F981D958D4B00C7F1B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DB8F961D958D4B00C7F1B3 /* LaunchScreen.storyboard */; };
 		A8DB8FA31D958D4B00C7F1B3 /* BeastListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FA21D958D4B00C7F1B3 /* BeastListTests.swift */; };
 		A8DB8FAE1D958D4B00C7F1B3 /* BeastListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FAD1D958D4B00C7F1B3 /* BeastListUITests.swift */; };
+		A8DB8FBC1D958F7D00C7F1B3 /* ToBeastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FBB1D958F7D00C7F1B3 /* ToBeastTableViewController.swift */; };
+		A8DB8FBE1D958FDF00C7F1B3 /* ToBeastCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FBD1D958FDF00C7F1B3 /* ToBeastCustomCell.swift */; };
+		A8DB8FC01D9590DB00C7F1B3 /* ToBeastCustomCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FBF1D9590DB00C7F1B3 /* ToBeastCustomCellDelegate.swift */; };
+		A8DB8FC21D9595DD00C7F1B3 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FC11D9595DD00C7F1B3 /* CancelButtonDelegate.swift */; };
+		A8DB8FC41D95968700C7F1B3 /* JustBeastItTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FC31D95968700C7F1B3 /* JustBeastItTableViewController.swift */; };
+		A8DB8FC71D959A5E00C7F1B3 /* Beast+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FC51D959A5E00C7F1B3 /* Beast+CoreDataClass.swift */; };
+		A8DB8FC81D959A5E00C7F1B3 /* Beast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FC61D959A5E00C7F1B3 /* Beast+CoreDataProperties.swift */; };
+		A8DB8FCA1D959AEA00C7F1B3 /* JustBeastItTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8FC91D959AEA00C7F1B3 /* JustBeastItTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A83C3B661D95BF2000F8DF01 /* BeastedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastedTableViewController.swift; sourceTree = "<group>"; };
 		A8DB8F871D958D4B00C7F1B3 /* BeastList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeastList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB8F8A1D958D4B00C7F1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8DB8F8C1D958D4B00C7F1B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8DB8F8F1D958D4B00C7F1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8DB8F921D958D4B00C7F1B3 /* BeastList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeastList.xcdatamodel; sourceTree = "<group>"; };
 		A8DB8F941D958D4B00C7F1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		A8DB8FA91D958D4B00C7F1B3 /* BeastListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeastListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DB8FAD1D958D4B00C7F1B3 /* BeastListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastListUITests.swift; sourceTree = "<group>"; };
 		A8DB8FAF1D958D4B00C7F1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DB8FBB1D958F7D00C7F1B3 /* ToBeastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToBeastTableViewController.swift; sourceTree = "<group>"; };
+		A8DB8FBD1D958FDF00C7F1B3 /* ToBeastCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToBeastCustomCell.swift; sourceTree = "<group>"; };
+		A8DB8FBF1D9590DB00C7F1B3 /* ToBeastCustomCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToBeastCustomCellDelegate.swift; sourceTree = "<group>"; };
+		A8DB8FC11D9595DD00C7F1B3 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		A8DB8FC31D95968700C7F1B3 /* JustBeastItTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustBeastItTableViewController.swift; sourceTree = "<group>"; };
+		A8DB8FC51D959A5E00C7F1B3 /* Beast+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Beast+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8DB8FC61D959A5E00C7F1B3 /* Beast+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Beast+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8DB8FC91D959AEA00C7F1B3 /* JustBeastItTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JustBeastItTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,9 @@
 		A8DB8F7E1D958D4B00C7F1B3 = {
 			isa = PBXGroup;
 			children = (
+				A8DB8FC51D959A5E00C7F1B3 /* Beast+CoreDataClass.swift */,
+				A8DB8FC61D959A5E00C7F1B3 /* Beast+CoreDataProperties.swift */,
+				A8DB8FC91D959AEA00C7F1B3 /* JustBeastItTableViewControllerDelegate.swift */,
 				A8DB8F891D958D4B00C7F1B3 /* BeastList */,
 				A8DB8FA11D958D4B00C7F1B3 /* BeastListTests */,
 				A8DB8FAC1D958D4B00C7F1B3 /* BeastListUITests */,
@@ -99,9 +118,14 @@
 		A8DB8F891D958D4B00C7F1B3 /* BeastList */ = {
 			isa = PBXGroup;
 			children = (
+				A8DB8FBB1D958F7D00C7F1B3 /* ToBeastTableViewController.swift */,
 				A8DB8F8A1D958D4B00C7F1B3 /* AppDelegate.swift */,
-				A8DB8F8C1D958D4B00C7F1B3 /* ViewController.swift */,
 				A8DB8F8E1D958D4B00C7F1B3 /* Main.storyboard */,
+				A83C3B661D95BF2000F8DF01 /* BeastedTableViewController.swift */,
+				A8DB8FC31D95968700C7F1B3 /* JustBeastItTableViewController.swift */,
+				A8DB8FC11D9595DD00C7F1B3 /* CancelButtonDelegate.swift */,
+				A8DB8FBF1D9590DB00C7F1B3 /* ToBeastCustomCellDelegate.swift */,
+				A8DB8FBD1D958FDF00C7F1B3 /* ToBeastCustomCell.swift */,
 				A8DB8F941D958D4B00C7F1B3 /* Assets.xcassets */,
 				A8DB8F961D958D4B00C7F1B3 /* LaunchScreen.storyboard */,
 				A8DB8F991D958D4B00C7F1B3 /* Info.plist */,
@@ -265,9 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DB8F8D1D958D4B00C7F1B3 /* ViewController.swift in Sources */,
+				A8DB8FBC1D958F7D00C7F1B3 /* ToBeastTableViewController.swift in Sources */,
 				A8DB8F8B1D958D4B00C7F1B3 /* AppDelegate.swift in Sources */,
+				A8DB8FC41D95968700C7F1B3 /* JustBeastItTableViewController.swift in Sources */,
+				A8DB8FC21D9595DD00C7F1B3 /* CancelButtonDelegate.swift in Sources */,
+				A8DB8FC81D959A5E00C7F1B3 /* Beast+CoreDataProperties.swift in Sources */,
+				A83C3B671D95BF2000F8DF01 /* BeastedTableViewController.swift in Sources */,
 				A8DB8F931D958D4B00C7F1B3 /* BeastList.xcdatamodeld in Sources */,
+				A8DB8FC01D9590DB00C7F1B3 /* ToBeastCustomCellDelegate.swift in Sources */,
+				A8DB8FBE1D958FDF00C7F1B3 /* ToBeastCustomCell.swift in Sources */,
+				A8DB8FC71D959A5E00C7F1B3 /* Beast+CoreDataClass.swift in Sources */,
+				A8DB8FCA1D959AEA00C7F1B3 /* JustBeastItTableViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +550,7 @@
 				A8DB8FB41D958D4B00C7F1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8DB8FB51D958D4B00C7F1B3 /* Build configuration list for PBXNativeTarget "BeastListTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +559,7 @@
 				A8DB8FB71D958D4B00C7F1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8DB8FB81D958D4B00C7F1B3 /* Build configuration list for PBXNativeTarget "BeastListUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +568,7 @@
 				A8DB8FBA1D958D4B00C7F1B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
